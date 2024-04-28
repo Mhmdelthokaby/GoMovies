@@ -10,13 +10,13 @@ const Navbar = ({userData ,logOut}) => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-transparent p-3 z-3">
+      <nav className="navbar navbar-expand-lg bg-transparent p-3 z-3 ">
   <div className="container-fluid py-1" >
     <Link className="navbar-brand " to="/" ><h3 className="text-white"><span className="text-danger fs-1 fw-bold">Go</span>Movies</h3></Link>
-    <button className="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon text-white"></span>
+    <button class="navbar-toggler tex-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="text-white"><i class="fa-solid fa-bars"></i></span>
     </button>
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse z-3" id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 
               {userData? <><li className="nav-item">

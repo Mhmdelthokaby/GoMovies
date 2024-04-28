@@ -24,9 +24,9 @@ const MediaDetails = () => {
 
        return (
               <>
-                     {details ? <div className="container py-5">
-                     <div className="row ">
-                            <div className='col-12 col-md-6 col-lg-4 g'>
+                     {details ? <div className="container py-5 px-3">
+                     <div className="row g-4">
+                            <div className='col-12 col-md-6 col-lg-4'>
                                    <div>
                                           {details && details.poster_path && (
                                                  <div className='ImageDetails'>
