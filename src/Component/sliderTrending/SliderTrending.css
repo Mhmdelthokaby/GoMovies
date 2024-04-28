@@ -1,0 +1,18 @@
+.slick-arrow{
+       display: none !important;
+}
+.layerInfo{
+       position: absolute;
+       top: 100%;
+       left: 0;
+       right: 0;
+       background-color:  rgba(255, 255, 255, 0.1);
+       backdrop-filter: blur(50px);
+       transition: .9s;
+
+}
+
+.movieCard:hover .layerInfo{
+       top: 70%;
+       bottom: 0;
+}

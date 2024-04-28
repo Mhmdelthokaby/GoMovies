@@ -1,0 +1,9 @@
+:root{
+       --color-black: #0C0A0E;
+       --color-gray: #BFBFBF;
+       --color-red: #e50914;
+}
+
+.textColorRed{
+       color: var(--color-red) !important;
+}
